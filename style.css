@@ -1,0 +1,150 @@
+/* تنظیمات کلی صفحه */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    direction: rtl;
+    text-align: right;
+
+    background-color: #272727;
+    color: #e2e8f0;
+
+    margin: 0;
+    padding: 20px;
+
+    line-height: 2;
+}
+
+/* بخش معرفی */
+
+header {
+    background-color: #806025;
+    text-align: center;
+
+    padding: 35px 20px;
+    border-radius: 15px;
+
+    border: 1px solid #334155;
+    box-shadow: 0 5px 15px #00000030;
+}
+
+header h1 {
+    color: #b7b04e;
+    font-size: 28px;
+}
+
+header h2 {
+    color: #ffffff;
+    font-size: 23px;
+}
+
+/* عنوان بخش ها */
+
+h2 {
+    color: #d0a086;
+}
+
+/* کارت های معرفی */
+
+section {
+    background-color: #73640071;
+
+    padding: 20px;
+    margin-top: 25px;
+
+    border-radius: 12px;
+    border: 1px solid #ffea00;
+
+    transition: 0.3s;
+}
+
+/* افکت حرکت کارت */
+
+section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px #00000030;
+}
+
+/* خط جداکننده */
+
+hr {
+    border: none;
+    border-top: 1px solid #334155;
+    margin: 25px 0;
+}
+
+/* فهرست علاقه مندی ها */
+
+ul {
+    padding-right: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* لینک ها */
+
+a {
+    display: inline-block;
+    color: #60a5fa;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: white;
+    background-color: #2563eb;
+    padding: 3px 8px;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+/* بخش پایانی */
+
+footer {
+    text-align: center;
+    color: #94a3b8;
+
+    margin-top: 30px;
+    padding: 20px;
+}
+
+/* تنظیمات نمایش در موبایل */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 20px 10px;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    section {
+        padding: 15px;
+    }
+/* افکت لینک های ارتباطی */
+
+a {
+    display: inline-block;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffffff;
+    background-color: #2563eb;
+    padding: 3px 8px;
+    border-radius: 5px;
+    transform: scale(1.05);
+}
+
+}
